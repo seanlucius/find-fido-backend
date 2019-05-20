@@ -1,0 +1,2 @@
+class PossibleMatchesController < ApplicationController
+end

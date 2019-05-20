@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  name: MyString
+  latitude: 1.5
+  longitude: 1.5
+  picture: MyString
+  species: MyString
+  breed: MyString
+  sex: MyString
+  age: MyString
+  color: MyString
+  defining_features: MyString
+  instructions: MyText
+
+two:
+  user_id: 1
+  name: MyString
+  latitude: 1.5
+  longitude: 1.5
+  picture: MyString
+  species: MyString
+  breed: MyString
+  sex: MyString
+  age: MyString
+  color: MyString
+  defining_features: MyString
+  instructions: MyText
