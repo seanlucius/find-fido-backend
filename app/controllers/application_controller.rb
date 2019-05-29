@@ -35,6 +35,9 @@ def logged_in?
 end
 
 def authorized
-  render json: { message: 'Please log in' }, status: :unauthorized unless logged_in?
+  if !logged_in?
+
+    render json: { success: false, message: 'Please log in', status: 401 }
+  end
 end
 end
